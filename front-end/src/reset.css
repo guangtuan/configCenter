@@ -1,0 +1,12 @@
+body {
+    height: 100vh;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#root {
+    height: 100%;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "be",
+  "version": "1.0.0",
+  "description": "config center",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "posttest": "open $PWD/coverage/lcov-report/index.html",
+    "lint": "eslint --ext .js,.jsx src",
+    "fix": "eslint --ext .js,.jsx src --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "dayjs": "^1.8.14",
+    "express": "^4.16.3",
+    "express-cors": "^0.0.3",
+    "ip-range-check": "^0.2.0",
+    "mysql": "^2.16.0",
+    "ramda": "^0.26.1",
+    "randomstring": "^1.1.5",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "jest": "^24.7.1",
+    "mocha": "^6.0.2"
+  }
+}

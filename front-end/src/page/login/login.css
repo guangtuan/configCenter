@@ -1,0 +1,23 @@
+.login-container {
+    height: 100%;
+    width: 100%;
+}
+
+.login-form {
+    height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user {
+    margin-bottom: 16px;
+}
+
+.password {
+    margin-bottom: 16px;
+}

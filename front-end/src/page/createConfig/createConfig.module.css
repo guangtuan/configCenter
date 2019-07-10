@@ -1,0 +1,22 @@
+.container {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+}
+
+.keyValue {
+    margin-top: 16px;
+}
+
+.pasteJSON {
+    margin-top: 16px;
+}
+
+.submit {
+    margin-top: 16px;
+}
+
+.preview {
+    margin-top: 16px;
+}
