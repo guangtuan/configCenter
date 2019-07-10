@@ -40,8 +40,8 @@ curl http://host/api/core/config.query?app=config-center&env=production
 
 ## TODOs
 
-- [] auto migrate for mysql(now you should do it manually, files are in `/server-side/migrate`);
-- [] auto create admin user;
-- [] Make output part funtional;
-- [] refactor code;
-- [] UI&UE optimize;
+- [ ] auto migrate for mysql(now you should do it manually, files are in `/server-side/migrate`);
+- [ ] auto create admin user;
+- [ ] Make output part funtional;
+- [ ] refactor code;
+- [ ] UI&UE optimize;
