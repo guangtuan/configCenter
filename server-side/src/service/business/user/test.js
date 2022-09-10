@@ -4,7 +4,7 @@ const { clear, close } = require('../../sys/mysql');
 const assert = require('assert');
 
 const clearUser = clear({
-    table: 'user'
+    table: 'user',
 });
 
 beforeEach(clearUser);
@@ -16,7 +16,7 @@ afterAll(close);
 test('test register', async () => {
     const { insertId } = await register({
         user: 'foo',
-        password: 'bar'
+        password: 'bar',
     });
     assert.equal(true, !!insertId);
 });
@@ -24,9 +24,9 @@ test('test register', async () => {
 test('test verify password', async () => {
     const pack = {
         user: 'foo',
-        password: 'bar'
+        password: 'bar',
     };
     await register(pack);
     const userValidResult = await verifyPassword(pack);
-    assert.equal(true, userValidResult.ok());
+    assert.equal(true, userValidResult);
 });
